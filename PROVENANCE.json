@@ -1,0 +1,24 @@
+{
+  "source": "../under25",
+  "source_version": "under25-online-20261027-query-plan-routes",
+  "source_base_commit": "f8976b0ce4d994baffe61868f3e68a24c8a8b642",
+  "purpose": "AgentHon Track 4 submission wrapper synchronized with the current Under25 query-planning runtime",
+  "forecast_core_changes": [
+    "Task-first six-to-eight query needs with explicit metric/time targets",
+    "Offline Aho-Corasick query-term index plus corpus and table-header vocabulary grounding",
+    "Family-gated post-earnings evidence planning without unit IDs or realized outcomes",
+    "Optional task-only query-plan context route; fixed submission entry retains scanned default"
+  ],
+  "adapter_changes": [
+    "House-only analyze CLI using injected origin, model and bearer; honor organizer proxy environment",
+    "Fixed final phase; reserve core 24 + final reason 1 requests; cap each output at 4000",
+    "Reserve up to 45 seconds within the unit's total time for the final reason call",
+    "Strict one-attempt reasons with explicit output contract; append without changing published forecasts",
+    "Retain a fully validated analysis answer if optional final reasoning fails",
+    "Extract pure historical memo helper functions without replay or local proxy transports"
+  ],
+  "image_policy": "linux/amd64; interface_version 2.0; no VOLUME; no task data, outcomes, runs, credentials or neural weights",
+  "runtime_official_validator": "Vendored original deterministic checker; no official platform score or production NLI run is claimed",
+  "descriptor_tool": "Official final fixture and canonical seal/parser; use official qfbench2-common v2.6.1 for team alias and pack",
+  "submission_status": "Code/image kit only; public registry digest and genuine team claim must be supplied before official upload"
+}

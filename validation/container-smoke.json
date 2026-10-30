@@ -1,0 +1,34 @@
+{
+  "image": "under25-agenthon:final-20261027",
+  "network": "internal-only",
+  "results": [
+    {
+      "case": "classification",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "complete",
+      "entities": 1
+    },
+    {
+      "case": "regression",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "complete",
+      "entities": 1
+    },
+    {
+      "case": "ranking",
+      "status": "passed",
+      "requests": 6,
+      "reason_status": "complete",
+      "entities": 3
+    },
+    {
+      "case": "classification-reason-failure",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "retained_analysis_answer",
+      "entities": 1
+    }
+  ]
+}

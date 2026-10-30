@@ -1,0 +1,28 @@
+[
+  {
+    "model_id": "cross-encoder/nli-deberta-v3-large",
+    "revision": "bab4bc7178836f731dcfd18c06ca9def0a137712",
+    "path": "vendor/judge-tokenizers/cross-encoder--nli-deberta-v3-large",
+    "files": {
+      "added_tokens.json": "a4b6bfe668f2b3cf6f0cd535e98a0663d2d0d4a4a15f13075ad3597d33985a23",
+      "tokenizer_config.json": "f3eecd07c370ef0bf7dd3780d3cd68cf9c8b00c267e21a208ddcd8f82bfec1a6",
+      "special_tokens_map.json": "ed7c099c988dbb414b18a6980d20cb57b91b7cd119f6f6941eb364b0e892e712",
+      "config.json": "30d88fd93586a85330162d169f68161aecc242e1be23dc41db335c069fbbab8f",
+      "tokenizer.json": "5124ef2ead1a10a717703bc436de7f353da76d6340e4587719b42b1693707964",
+      "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+    }
+  },
+  {
+    "model_id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "path": "vendor/judge-tokenizers/MoritzLaurer--DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "files": {
+      "added_tokens.json": "cd0141b19e809eb963a8f8244fad72530233f729e1f6960d281e1fbb3537b2fb",
+      "tokenizer_config.json": "556a192d83e3edb45a09a6207095dd9295c3b2279062e5cc430feac4cb7a0817",
+      "special_tokens_map.json": "fcfbeb4e25cd37fb5b8030406394253b245230fd3b552750092bab7d24d827da",
+      "config.json": "7f9d420b616691c5b575bab8839719aefbddc656d8e1316519414b097ce43e3d",
+      "tokenizer.json": "7aa118770f066a74530d161c7d0b994d0629cc0ff3a0df213f184192773f960a",
+      "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+    }
+  }
+]

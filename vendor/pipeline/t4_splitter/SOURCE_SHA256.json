@@ -1,0 +1,10 @@
+{
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/utils.py": "a99fde3ff5502c83f808c770962391da547aee48c818362b2c44b4f1829440bb",
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/stop_words.ch.txt": "2ba755feba48c7b2cd344458db601054d0723c701831d7c0586cca504604ff7c",
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/stop_words.en.txt": "883fc88a14aa980677c80d485e6c16863fa40ff87743b1f46c6970845ed8f0a5",
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/chunking/md_chunking.py": "3b6a138ecfea9230a82c33976cdc3c7b1a966961c32dfd14ac3810b742206d45",
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/chunking/element_chunking.py": "e66a343cb46d32fa8ec2ca0ee5612ea5f0ec9ac9648ce140c75c0cfe7e6c6817",
+  "experiments/md-index/vendor/parse-pipeline/src/dc_parse/chunking/sentence_chunking.py": "cabb3bcc7299d29c26f90a01e342ac756ad89b6dd26e1d89f3bbb81d860f7c05",
+  "experiments/md-index/structure4000/protected_split.py": "54842be3159e78915a1ae763da0f76120bc7e3e4f27aa1a370edd438513a8379",
+  "experiments/md-index/all11-4000/strict_cap.py": "533a092c2eb9721f736e1c6b0b06614def127c20df5ee8bfe87e33c19c9ee394"
+}

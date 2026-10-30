@@ -1,0 +1,10 @@
+Create a short, externally reviewable structured forecast decision memo from the supplied evidence. Thinking is disabled. This is an unverified advisory for a later predictor, not new evidence. Apply the same rules to every regression task; do not infer special rules from task, family, or entity names.
+
+For each entity, copy the strongest comparable quantitative anchor into baseline.point/lo/hi. Set baseline.reliability to calibrated only when the supplied anchor describes empirical historical calibration with observations; use heuristic for a sparse, assumption-based, stress, or zero-observation anchor; use unavailable when no comparable numeric anchor exists.
+
+Separate qualitative direction from numeric support. direction is up/down/flat/mixed/unknown. magnitude is none/small/moderate/large/unknown and is relative to the supplied target scale. numeric_support is derived_or_direct only when supplied evidence directly states the target forecast or supplies a reproducible numeric derivation; otherwise use qualitative_only or none. Never invent a coefficient.
+
+point_action is retain/increase/decrease relative to baseline.point. recommended_point must be null unless numeric_support is derived_or_direct; when supported it must be a number consistent with point_action. Qualitative-only evidence may identify direction and magnitude but may not manufacture a precise recommended point. State material counterevidence. uncertainty_action is retain/widen/narrow; uncertainty is not a reason to force the point forecast to zero.
+
+Use only owned fact IDs. Return every allowed entity exactly once and no others. Return only:
+{"reason_content":[{"entity_id":"...","baseline":{"point":0.0,"lo":-1.0,"hi":1.0,"reliability":"calibrated|heuristic|unavailable"},"direction":"up|down|flat|mixed|unknown","magnitude":"none|small|moderate|large|unknown","numeric_support":"derived_or_direct|qualitative_only|none","point_action":"retain|increase|decrease","recommended_point":null,"counterevidence":"...","uncertainty_action":"retain|widen|narrow","fact_ids":["allowed_id"]}]}

@@ -1,0 +1,15 @@
+{
+  "name": "typed-evidence-v2",
+  "profile_version": 8,
+  "predictor_prompt": "predictor-typed-evidence-v2",
+  "query_plan_schema": "external-v49",
+  "selection_policy": "subquery-grounded-coverage-v3",
+  "relevance_max_windows_per_packet": 2,
+  "evidence_schema": "typed-evidence-v2",
+  "prediction_interface": "forecast-update-v2",
+  "post_prediction_pipeline": "deterministic-once-then-reasons-v1",
+  "dynamic_evidence_budget": {
+    "policy": "dynamic-regression-cap-v1",
+    "max_facts": 5
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source_baseline_unchanged": false,
+  "forecast_core_byte_identical": false,
+  "runtime_synchronized_with": "../under25 workflow as of 2026-10-27 query-plan routes",
+  "local_tests_passed": 64,
+  "official_261_descriptor_tests_passed": 3,
+  "official_261_commit": "99fd66565303554fbf9063140b45287e11895b8f",
+  "image_id": "sha256:87a856b7acdb4bb5c0c8a35597d25f332127b25e498c8eb30d26963fb062cfc2",
+  "architecture": "amd64",
+  "os": "linux",
+  "interface_version": "2.0",
+  "volumes": null,
+  "image_runtime_files_verified": 389,
+  "query_term_ac_index_packaged": true,
+  "query_plan_context_default": "scanned",
+  "forbidden_artifacts": [],
+  "container_cases": [
+    {
+      "case": "classification",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "complete",
+      "entities": 1
+    },
+    {
+      "case": "regression",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "complete",
+      "entities": 1
+    },
+    {
+      "case": "ranking",
+      "status": "passed",
+      "requests": 6,
+      "reason_status": "complete",
+      "entities": 3
+    },
+    {
+      "case": "classification-reason-failure",
+      "status": "passed",
+      "requests": 4,
+      "reason_status": "retained_analysis_answer",
+      "entities": 1
+    }
+  ],
+  "real_house_api_tested": false,
+  "official_score": null,
+  "public_registry_push_performed": false,
+  "sealed_team_zip_created": false
+}

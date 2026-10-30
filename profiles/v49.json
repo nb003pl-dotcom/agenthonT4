@@ -1,0 +1,8 @@
+{
+  "name": "v49",
+  "profile_version": 1,
+  "query_plan_schema": "external-v49",
+  "selection_policy": "model-preview-v1",
+  "evidence_schema": "flat-facts-v1",
+  "prediction_interface": "predictor-v1"
+}

@@ -1,0 +1,111 @@
+[
+    {
+        "Id": "sha256:87a856b7acdb4bb5c0c8a35597d25f332127b25e498c8eb30d26963fb062cfc2",
+        "RepoTags": [
+            "under25-agenthon:final-20261027"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-10-27T04:06:07.888727762Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.13.15",
+                "PYTHON_SHA256=1e66a7945a48390ee4c2a4268a0e4185884059a13c4aab6d148aa208deea4a76",
+                "PYTHONUNBUFFERED=1",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONPATH=/opt/under25",
+                "HF_HUB_OFFLINE=1",
+                "TRANSFORMERS_OFFLINE=1",
+                "TOKENIZERS_PARALLELISM=false",
+                "XDG_CACHE_HOME=/tmp/cache",
+                "OMP_NUM_THREADS=4"
+            ],
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/output",
+            "Entrypoint": [
+                "python",
+                "/opt/under25/submission_entry.py"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.description": "Current Under25 forecasting workflow with House-only final submission adapter",
+                "org.opencontainers.image.title": "Under25 AgentHon Track 4 Final",
+                "qfbench2.interface_version": "2.0"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 623174979,
+        "VirtualSize": 623174979,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/xwwqqq18s5lrsx0bouj2hpgkw/diff:/var/lib/docker/overlay2/p7uc01xzola5k2g457brqaiek/diff:/var/lib/docker/overlay2/klzbr3fhcjvi1f76qheo5otii/diff:/var/lib/docker/overlay2/zn3l9i435ykkfsky7u9fo0bi2/diff:/var/lib/docker/overlay2/i2jlbi6ze47tp5ivbpwcbl0j4/diff:/var/lib/docker/overlay2/qcjvwzu38tspkqbh5sxn8jaw8/diff:/var/lib/docker/overlay2/zaut6qizzrptxsmtnf5zp4lm1/diff:/var/lib/docker/overlay2/io3jujxmu74td8fi1djpq1nc0/diff:/var/lib/docker/overlay2/u09ezbvxi3gkrlv0u36afahac/diff:/var/lib/docker/overlay2/w6auvf362k892ykq3irfht3e1/diff:/var/lib/docker/overlay2/m2swoq3dmy2bsz2mpuqktje90/diff:/var/lib/docker/overlay2/pv8ozew334qp5sbxnkh2zlpvn/diff:/var/lib/docker/overlay2/a0a586955bcdeeeaf30f28c93aaaf3a2c0737625719876d12e8de10cf02365e7/diff:/var/lib/docker/overlay2/56761c8f79d7f0000c243b4b6fa69b7434b2ba6401add10a71e80552d77a1561/diff:/var/lib/docker/overlay2/9173cb08228171156d650fa95ea6fcbbbcbd9bb167fb30b9d29932bc1c961427/diff:/var/lib/docker/overlay2/dad09422ebdc99c2d4862c08c57d3aa1400c291222bc37b11bd704303953fb1e/diff",
+                "MergedDir": "/var/lib/docker/overlay2/molgyi0pcg6ofb8entof5iqsl/merged",
+                "UpperDir": "/var/lib/docker/overlay2/molgyi0pcg6ofb8entof5iqsl/diff",
+                "WorkDir": "/var/lib/docker/overlay2/molgyi0pcg6ofb8entof5iqsl/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:34467cc93912af891dfee8a3902adf9b4f355a9bca4eaa46f658d1181a21de0d",
+                "sha256:0229d3e3d668de7c1d42c1e23d30f4bc5c5e93d68c8fe897e94a6fe9b0262491",
+                "sha256:d119e31e71d7a4e8b81f78a0e11901e1a2b3252619eac69266aa157d943b4763",
+                "sha256:1095031acd1c984ad93c83dadab1d79a3b2fd93d5086537b16593c47a3e3ee06",
+                "sha256:4440229a6c5c56fd3081b30816d5b0b37ef7d0d7e6a01c9aa792d0ab34c600d7",
+                "sha256:3d256d27cabdd526f107961b7f72d264cfb970644f12d50d34e13dfd2efabdc1",
+                "sha256:fe416f31fc3b9e1175db7668f6afce9b77a1a9b683c4424fae424ca8f4b541a4",
+                "sha256:8ab0b6a467d4221a527eed5792bd280cacac69575ca80353a6d6dc4a31b7f781",
+                "sha256:7ed717fdda24c41412f24348c0d0d842e2c1b654b15d3af960c3cc8f41e79f2c",
+                "sha256:89f5b24970fecc491019759c8afddc8244313ab474b1902d4d5583ade9b49e21",
+                "sha256:0b489e7019fea669eb06e8302aa5c0725574399b5f5e8fe5dfa6523c68d1454b",
+                "sha256:1eeb4bf89f5cf8c044adca744821e6532049b8f6d727c78c471fb19a585528e4",
+                "sha256:27b96b03b1ab2bcb47ce6d12f084dd113636105bbb6aa2105855a9c2487df933",
+                "sha256:722a781fda04cc11b1966df16328a457b67fd343070ff873b141f6cd90c6fe21",
+                "sha256:6e4b953c6100704b2332843fbe119974552edd6788c6348f9726ecc2768db21f",
+                "sha256:46fdfdcd92e8252fd765c350989832df7165252df46ff17b3bdcc8c10e1783b1",
+                "sha256:378dfe0f6aae3b9874046aa9929d4c5c27b3346676293d38afdcde70e9e3293a"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-10-27T04:09:05.953997636Z"
+        }
+    }
+]
